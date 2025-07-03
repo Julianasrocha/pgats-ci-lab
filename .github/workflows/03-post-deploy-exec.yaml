@@ -1,6 +1,6 @@
 #CI de Nivel 3- disparo apos a conclusão de um pipeline
 # nome do nosso 'pipeline'
-name: 'Execução Manual'
+name: 'Execução por Deploy
 # regras de disparo (gatilhos/triggers)
 # gatilho de exec manual = workflow_dispatch
 # gatilho de exec agendada= Schedule
