@@ -1,6 +1,6 @@
 #CI de Nivel 3- disparo apos a conclusão de um pipeline
 # nome do nosso 'pipeline'
-name: 'Execução por Deploy
+name: 'Execução por Deploy'
 # regras de disparo (gatilhos/triggers)
 # gatilho de exec manual = workflow_dispatch
 # gatilho de exec agendada= Schedule
@@ -14,7 +14,7 @@ on:
 # trabalhos/tarefas dentro do pipeline = jobs
 jobs:
   e2e-tests:
-  #maquina que o job vai executar
+    #maquina que o job vai executar
     runs-on: ubuntu-latest
     # passos do script de build
     steps: 
