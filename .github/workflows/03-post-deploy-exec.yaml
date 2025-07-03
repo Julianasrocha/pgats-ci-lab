@@ -7,10 +7,10 @@ name: 'Execução por Deploy
 # gatilho de execa partir de outro pipe = workflow_run
 on:
   workflow_run:
-    workflows: ["Execução Manual"]
+    workflows: ['Execução Manual']
     types:
       - completed
-
+      
 # trabalhos/tarefas dentro do pipeline = jobs
 jobs:
   e2e-tests:
